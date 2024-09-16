@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePage } from './home.page';
+import { HomePage } from './home.page'; // Import correto da HomePage
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePage,
-  }
+  { path: '', component: HomePage }, // Usa o componente diretamente
 ];
 
 @NgModule({
